@@ -6,17 +6,45 @@
 <script src="https://rawgit.com/donmccurdy/aframe-extras/v2.1.1/dist/aframe-extras.loaders.min.js"></script> 
 
   </head>
-    <body>
+  <body>
     <a-scene>
       <a-sky color="lightblue"></a-sky>
-      
-       <!-- Put this inside the <a-scene> -->
-      <a-entity 
-      ply-model="src:dog.ply"
-      position="0 1 -2"
-      rotation="-90 0 90"
+      <a-entity id="fishblue"
+      ply-model="src:SkyFishBlue.ply"
+      position="-2 0 -3"
+      rotation="-90 0 0"
+      scale="0.2 0.2 0.2"
       ></a-entity>
-                 
+      <a-entity id="fishlblue"
+      ply-model="src:SkyFishLightBlue.ply"
+      position="-1 0 -3"
+      rotation="-90 0 0"
+      scale="0.2 0.2 0.2"
+      ></a-entity>
+      <a-entity id="fishpink"
+      ply-model="src:SkyFishpink.ply"
+      position="0 0 -3"
+      rotation="-90 0 0"
+      scale="0.2 0.2 0.2"
+      ></a-entity>
+      <a-entity id="fishpurple"
+      ply-model="src:SkyFishpurple.ply"
+      position="1 0 -3"
+      rotation="-90 0 0"
+      scale="0.2 0.2 0.2"
+      ></a-entity>
+      <a-entity id="fishgreen"
+      ply-model="src:SkyGreenLeader.ply"
+      position="2 0 -3"
+      rotation="-90 0 0"
+      scale="0.2 0.2 0.2"
+      ></a-entity>
+
+      <a-sphere
+      position="0 10 -30"
+      scale="20 38.248 20"
+      rotation="-24.653 -0.63 138.248"
+      ></a-sphere>
     </a-scene>
   </body>
 </html>
